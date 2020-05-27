@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+export CONTECO_LABEL="module.ksqldb_server_tocloud - ContEco"
+export CONTECO_DESCRIPTION="ContEco ksqlDB Server to cloud module with managed standard URL UI."
+
+export CONTECO_TYPE="module"
+export CONTECO_NAME="ksqldb_server_tocloud"
+export CONTECO_TAG="0.9.0"
+
+export CONTECO_BASE="image.wrapper"
+export CONTECO_BUILD="image"

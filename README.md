@@ -1,6 +1,6 @@
-# `module.ksqldb_server_tocloud` - ContEco
+# `module.ksqldb_server_sasl` - ContEco
 
-An ksqlDB Server to cloud based module.
+ContEco Confluent ksqlDB Server module, with SASL authentication.
 See `conteco.docs.overview` for more information on the ContEco ecosystem.
 
 ## Configuration

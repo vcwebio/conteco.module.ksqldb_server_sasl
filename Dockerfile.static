@@ -13,16 +13,16 @@ COPY ./ /conteco/repo/
 
 ##### BEGIN image/Dockerfile/env-labels-footer #####
 ENV CONTECO_TYPE="module" \
-    CONTECO_NAME="ksqldb_server_tocloud" \
+    CONTECO_NAME="ksqldb_server_sasl" \
     CONTECO_TAG="0.9.0" \
     CONTECO_BASE="image.wrapper" \
     CONTECO_BUILD="image"
 LABEL io.vcweb.type="module" \
-      io.vcweb.name="ksqldb_server_tocloud" \
+      io.vcweb.name="ksqldb_server_sasl" \
       io.vcweb.tag="0.9.0" \
       io.vcweb.base="image.wrapper" \
       io.vcweb.build="image" \
-      io.vcweb.label="module.ksqldb_server_tocloud - ContEco" \
-      io.vcweb.description="ContEco ksqlDB Server to cloud module with managed standard URL UI." \
-      io.vcweb.docker.cmd.help="docker run vcwebio/conteco.module.ksqldb_server_tocloud --help"
+      io.vcweb.label="module.ksqldb_server_sasl - ContEco" \
+      io.vcweb.description="ContEco Confluent ksqlDB Server module, with SASL authentication." \
+      io.vcweb.docker.cmd.help="docker run vcwebio/conteco.module.ksqldb_server_sasl --help"
 ##### END image/Dockerfile/env-labels-footer #####

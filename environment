@@ -5,7 +5,7 @@ export CONTECO_DESCRIPTION="ContEco Confluent ksqlDB Server module, with SASL au
 
 export CONTECO_TYPE="module"
 export CONTECO_NAME="ksqldb_server_sasl"
-export CONTECO_TAG="0.9.0"
+export CONTECO_TAG="0.12.0"
 
 export CONTECO_BASE="image.wrapper"
 export CONTECO_BUILD="image"
